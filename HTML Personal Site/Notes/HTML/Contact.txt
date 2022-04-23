@@ -1,0 +1,37 @@
+
+<h3>Contact Details :</h3>
+
+<form class="" action="mailto:saurabhkrsingh401@gmail.com" method="post" enctype="text/plain">
+  <table>
+    <tr>
+      <th><label for="Name">Full Name:</label></th>
+      <th><input type="text" name="Name" value=""><br></th>
+    </tr>
+    <tr>
+      <th><label for="Mobile No. ">Mobile No. </label></th>
+      <th><select class="country code" name="country code">
+        <option value=""></option>
+        <option value="Afganistan">+93</option>
+        <option value="India">+91</option>
+        <option value="Australia">+61</option>
+        <input type="tel" name="Mobile No." value=""><br></th>
+    </tr>
+    <tr>
+      <th><label for="email">Email ID:</label></th>
+      <th><input type="email" name="email" value=""><br></th>
+
+    </tr>
+    <tr>
+      <th><label for="psw">Password:</label></th>
+      <th><input type="password" name="psw" value=""><br></th>
+    </tr>
+    <tr>
+      <th><label for="joining date">DOJ</label></th>
+      <th><input type="date" name="joining date" value=""><br></th>
+    </tr>
+      <input type="file" name="file" value="Choose a file">
+
+  </table>
+  <p>Click on submit button to submit your form successfully:</p>
+  <input type="submit" name="Submit" value="Submit">
+</form>
